@@ -26,21 +26,22 @@
             <div class="collapse navbar-collapse" id="navbarS">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Inicio</a>
+                        <a href="/public/index.html" class="nav-link">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Nosotros</a>
+                        <a href="/public/Servicio.html" class="nav-link">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a href="Servicio.html" class="nav-link">Servicios</a>
+                        <a href="/public/Equipo.html" class="nav-link">Equipo</a>
                     </li>
                     <li class="nav-item">
-                        <a href="Equipo.html" class="nav-link">Equipo</a>
+                        <a href="/public/Registro.html" class="nav-link">Registrate</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contacto</a>
+                        <a href="/public/Ingresos.html" class="nav-link">Ingreso</a>
                     </li>
                 </ul>
+
             </div>
         </div>
     </nav>
@@ -131,32 +132,29 @@
 
     <section>
 
+        <h1 style="color: rgba(18, 139, 129, 0.63);">Agenda de Consultoría Psicológica</h1>
+        <form action="procesar_formulario.php" method="POST">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
 
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
 
-        <body>
-            <h1 style="color: rgba(18, 139, 129, 0.63);">Agenda de Consultoría Psicológica</h1>
-            <form action="procesar_formulario.php" method="POST">
-                <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono" required><br><br>
 
-                <label for="email">Correo electrónico:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+            <label for="fecha">Fecha de la cita:</label><br>
+            <input type="date" id="fecha" name="fecha" required><br><br>
 
-                <label for="telefono">Teléfono:</label><br>
-                <input type="tel" id="telefono" name="telefono" required><br><br>
+            <label for="hora">Hora de la cita:</label><br>
+            <input type="time" id="hora" name="hora" required><br><br>
 
-                <label for="fecha">Fecha de la cita:</label><br>
-                <input type="date" id="fecha" name="fecha" required><br><br>
+            <label for="mensaje">Mensaje adicional:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
 
-                <label for="hora">Hora de la cita:</label><br>
-                <input type="time" id="hora" name="hora" required><br><br>
-
-                <label for="mensaje">Mensaje adicional:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
-
-                <input type="submit" value="Agendar Cita">
-            </form>
-            </div>
+            <input type="submit" value="Agendar Cita">
+        </form>
+        </div>
     </section>
 
     <div>
@@ -172,7 +170,7 @@
         <div class="container">
             <p class="text-white">Servicios de psicologia</p>
         </div>
-        <img src="img/imagen3.jpg" class="img-fluid" alt="">
+        <img src="/public/assets/img/imagen3.jpg" class="img-fluid" alt="">
         <h3 class="card-title py2">Redes</h3>
         <p class="card-text  text-white mx-1">
             Whatsapp 1234567890 <br> Instagram @serviciosdepsicologia <br> Facebook Servicios de
