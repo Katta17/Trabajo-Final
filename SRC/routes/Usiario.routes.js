@@ -2,7 +2,7 @@
 //Rutas nos conectan el front(está en el servidor) - con lógica
 
 import express from 'express';
-import { getUsuario, postUsuario, putUsuario,deleteUsuario } from '../controllers/usuario.controller.js';
+import { getUsuario, postUsuario, putUsuario,deleteUsuario } from '../controllers/Usuario.controller.js';
 
 //Definir una variable para nuestras rutas
 const usuarioRouter = express.Router();
