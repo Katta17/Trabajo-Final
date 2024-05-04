@@ -1,7 +1,7 @@
 //Importamos las dependencias que necesitamos
 import mongoose from "mongoose";
 
-//Crear una funsion que ns conecte la base de datos
+//Crear una funsion que nos conecte la base de datos
 const conexionMongo = async() =>{
 
 await mongoose.connect(process.env.BD_URL,{})

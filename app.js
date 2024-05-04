@@ -3,8 +3,8 @@ import express from 'express';
 import path from 'path';
 import dotenv from 'dotenv';
 
-import conexionMongo from './src/config/db.js';
-import usuarioRouter from './src/routes/user.routes.js';
+import conexionMongo from './SRC/Config/basedatos.js';
+import usuarioRouter from './SRC/routes/Usiario.routes.js';
 
 
 //configuramos nuestro servidor servidor
