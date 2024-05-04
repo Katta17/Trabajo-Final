@@ -1,8 +1,10 @@
 // 1. IMPORTAMOS LAS DEPENDENCIAS QUE VAMOS A USAR
 import express from 'express';
 import path from 'path';
-import dotenv from "dotenv";
-import conexionMongo from './SRC/Config/basedatos.js';
+import dotenv from 'dotenv';
+
+import conexionMongo from './src/config/db.js';
+import usuarioRouter from './src/routes/user.routes.js';
 
 
 //configuramos nuestro servidor servidor
