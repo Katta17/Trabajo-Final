@@ -38,7 +38,7 @@ export const postUsuario = async(req, res) => {
 
     }catch(error){
         //Para que me muestre un mensaje que me indique cuál es el error
-        return res.json({error: "error al crear el usuario, holi", message:error.message});
+        return res.json({error: "error al crear el usuario", message:error.message});
     }
 
 }
