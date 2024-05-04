@@ -1,6 +1,6 @@
 //importamos dependencias -> lo que necesitemos para el funcionamiento del código
 
-import usuarioModel from '../models/usuario.model.js';
+import usuarioModel from '../Models/Usuario.model.js';
 
 
 /*
